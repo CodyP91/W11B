@@ -2,9 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const productGrid = document.querySelector('.product-grid');
     const cartDiv = document.querySelector('.cart');
     const clearCartBtn = document.getElementById('clear-cart');
-  
-    // Add product cards
-    // You can replace this with your desired product data
+
     const products = [
       { id: 1, name: 'Product 1', image: 'product1.jpg', price: 10 },
       { id: 2, name: 'Product 2', image: 'product2.jpg', price: 20 },
@@ -93,4 +91,3 @@ document.addEventListener('DOMContentLoaded', () => {
       clearCartBtn.addEventListener('click', clearCart);
     }
   });
-  
